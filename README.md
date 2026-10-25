@@ -185,6 +185,10 @@ Claude Code plugins are custom collections that can include:
 - **[workkit](https://github.com/ITW-Creative-Works/workkit)** - Runs GitHub Issues as a pipeline: an agent crew specs, builds, reviews and ships each issue
   - Features: triage, spec, build, review and ship skills; guard hooks; scout, worker and verifier agents
   - Author: ITW Creative Works
+- **[Overboard](https://github.com/mrieck/overboard-plugin)** - Cross-project board for people running many Claude Code sessions: `/overboard` opens a local dashboard that tracks every project's recent work, blockers, architecture and launch goals, with a scheduler and a dispatcher for running agents on a timer or from your phone
+  - Install: `/plugin marketplace add mrieck/claude-plugins` then `/plugin install overboard@productive-mark` · Commands: `/overboard`, `/overboard:dispatch`
+  - Website: https://tryoverboard.com/?utm_source=awesome-claude-code-plugins&utm_medium=directory · Plugin is MIT; the optional Overboard for Mac app is paid ($49 one-time)
+  - Author: Mark Rieck
 
 ### Marketing & Growth
 
